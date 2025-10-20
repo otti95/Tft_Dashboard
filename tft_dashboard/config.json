@@ -1,0 +1,12 @@
+{
+  "name": "TFT Dashboard",
+  "version": "1.0",
+  "slug": "tft_dashboard",
+  "description": "Dashboard für TFT-Display via Arduino",
+  "arch": ["armv7", "arm64", "amd64"],
+  "startup": "services",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "devices": ["/dev/ttyUSB0:/dev/ttyUSB0:rwm"]
+}
